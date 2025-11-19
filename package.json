@@ -1,0 +1,26 @@
+{
+  "name": "gmb-design-system",
+  "version": "1.0.0",
+  "description": "Designsystem för GMB:s interna appar",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "npm run build-ts",
+    "build-ts": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perstockholmsschakt/GMB-Design-System.git"
+  },
+  "author": "Per Sefastsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perstockholmsschakt/GMB-Design-System/issues"
+  },
+  "homepage": "https://github.com/perstockholmsschakt/GMB-Design-System#readme",
+  "dependencies": {
+    "@mui/material": "^7.3.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
